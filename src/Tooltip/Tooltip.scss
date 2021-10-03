@@ -1,0 +1,28 @@
+.Tooltip {
+  position: absolute;
+  left: 50%;
+  top: calc(50% + 5px);
+  width: 162px;
+  height: 107px;
+
+  &_TooltipWrapper {
+    margin-left: 15px;
+    margin-top: 10px;
+
+    &_text {
+      display: flex;
+
+      &_value1 {
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+      }
+      &_value2 {
+        margin-left: 5px;
+        color: rgba(196, 196, 196, 1);
+        font-weight: bold;
+        font-size: 20px;
+      }
+    }
+  }
+}
