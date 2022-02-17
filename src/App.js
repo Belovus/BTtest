@@ -4,7 +4,6 @@ import ExternalDiagram from "./components/Diagrams/ExternalDiagram";
 import Tooltip from "./Tooltip/Tooltip";
 import ForecastInPercents from "./services/forecastInPercents";
 import NitInPercents from "./services/NitInPercents";
-import './App.scss';
 import EntryField from "./components/entryField/EntryField";
 
 function App() {

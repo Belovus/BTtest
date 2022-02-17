@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import './EntryField.scss'
 import useInput from "../../Hooks/useInput";
 
 const EntryField = ({value1, value2, setValue1, setValue2}) => {
