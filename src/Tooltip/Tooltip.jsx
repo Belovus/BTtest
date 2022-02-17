@@ -1,4 +1,5 @@
 import React from 'react'
+import './Tooltip.scss'
 
 const Tooltip = ({value1, value2}) => {
     return (

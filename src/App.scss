@@ -1,0 +1,39 @@
+.App {
+  position: relative;
+  margin-left: 8px;
+  width: 175px;
+  height: 175px;
+
+  &_coefficient1 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: calc(41% + 5px);
+    left: 43%;
+    font-size: 22px;
+    font-weight: bold;
+
+    &_percent {
+      position: static;
+      font-weight: bold;
+      font-size: 13px;
+      margin-top: 5px;
+    }
+  }
+
+  &_coefficient2 {
+    position: absolute;
+    top: 40%;
+    right: -35px;
+    font-weight: bold;
+  }
+}
+
+.Wrapper {
+  width: 350px;
+  height: 210px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 2px double rgba(196, 196, 196, 1);
+  border-radius: 15px;
+}
